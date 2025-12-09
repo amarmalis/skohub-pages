@@ -57,4 +57,4 @@ Go to `Settings` > `Actions` > `General` > `Workflow permissions` and toggle the
 - In an earlier version, there was the .env variable `PATH_PREFIX` set to point to the repository the vocabulary is hosted at. To align with rest of code, this was changed to `BASEURL`.
 - The docker image now also support i18n
 
-test
+test - auch ein Test von Inga
