@@ -3,30 +3,26 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-institution: a skos:ConceptScheme ;
-    dct:title "Insitiutionen Vocabular"@de, "instutions vocabulary"@en ;
-    dct:creator "Anne Marx"@de ;
+institution:Scheme a skos:ConceptScheme ;
+    dct:title "Institutionen Vokabular"@de, "Institutions vocabulary"@en ;
+    dct:creator "Anne Marx" ;
     dct:created "2025-10-08"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept colour:violet, colour:blue .
+    skos:hasTopConcept institution:Bibliothek, institution:Medienzentrum, institution:Archiv, institution:Musikschule .
 
 institution:Bibliothek a skos:Concept ;
-    skos:prefLabel "Bibliothek"@de, "library"@en;
-    skos:altLabel "Bücherei"@de, "library"@en ;
-    skos:topConceptOf institution: .
+    skos:prefLabel "Bibliothek"@de, "library"@en ;
+    skos:altLabel "Bücherei"@de ;
+    skos:topConceptOf institution:Scheme .
 
 institution:Medienzentrum a skos:Concept ;
     skos:prefLabel "Medienzentrum"@de, "media center"@en ;
-    skos:topConceptOf institution: .
+    skos:topConceptOf institution:Scheme .
 
 institution:Archiv a skos:Concept ;
     skos:prefLabel "Archiv"@de, "archive"@en ;
-    skos:topConceptOf institution: .
+    skos:topConceptOf institution:Scheme .
 
 institution:Musikschule a skos:Concept ;
     skos:prefLabel "Musikschule"@de, "music school"@en ;
-    skos:topConceptOf institution: .
-
-institution:Musikschule a skos:Concept ;
-    skos:prefLabel "Musikschule"@de, "music school"@en ;
-    skos:topConceptOf institution: .
+    skos:topConceptOf institution:Scheme .
