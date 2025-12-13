@@ -27,6 +27,7 @@ Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signatu
 
 <a name="2.2"></a>
 ### 2.2 Arbeiten mit einem Kanban Board
+Eigentlich ist es so, dass man unter "Projekte" ein "New Project" anlegt, "Table" auswählt und hier zu "Board" switcht. Die "New Columns" belegt man dann z.B. mit "To Do", "in Progress" und "Done".
 
 <a name="2.3"></a>
 ### 2.3 Aufteilung der Aufgaben für das selbstständige Arbeiten
