@@ -14,7 +14,10 @@ Maren Zychla (Matrikelnummer:  )
 
 <a name="1"></a>
 ## **1. Auswahl des Vokabulars und kontextuelle Einordnung**
-Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signaturklassifikation des Instituts für Deutsche Sprache und Literatur I (IDSL I) der Universität zu Köln.
+Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signaturklassifikation des Instituts für Deutsche Sprache und Literatur I (IDSL I) der Universität zu Köln. URL: https://idsl1.phil-fak.uni-koeln.de/bibliothek/benutzung-und-ausleihe/systematik
+
+<a name="1.1"></a>
+### 1.1 Aufbau des Vokabulars
 
 <a name="2"></a>
 ## **2. Arbeitsorganisation**
@@ -29,13 +32,27 @@ Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signatu
 ### 2.3 Aufteilung der Aufgaben für das selbstständige Arbeiten
 
 <a name="3"></a>
-## 3. Lern- und Kompetenzentwicklung RDF und SKOS
+## 3. Umsetzungsphase
+
+<a name="3.1"></a>
+### 3.1 Vorbereitung der Kodierung
+
+<a name="3.2"></a>
+### 3.2 SKOS-Kodierung des Vokabulars
+
+<a name="3.3"></a>
+### 3.3 Veröffentlichung mit SKOHub Pages
 
 <a name="4"></a>
-## 4. Ausblick
+## 4. Lern- und Kompetenzentwicklung RDF und SKOS
+
+"SKOS Play!" ist sehr hilfreich um das Ergebnis in verschiedenen Visualisierungen zu checken.
+
+<a name="5"></a>
+## 5. Ausblick
 
 <a name="4.1"></a>
-### 4.1 Mehrwert des SKOS-Vokabulars
+### 5.1 Mehrwert des SKOS-Vokabulars
 
 <a name="4.2"></a>
-### 4.2 Anwendungsfälle
+### 5.2 Anwendungsfälle
