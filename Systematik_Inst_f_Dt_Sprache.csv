@@ -57,7 +57,7 @@ NT;NT 11;;Schriftsteller*innen ab 1945;;;;;;;;;;;;;
 NT;NT 12;;Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur);;;;;;;;;;;;;
 Se;;;Serien;Dies sind meist ältere philologische Schriften literaturwissenschaftlicher Verlagsreihen mit übergeordnetem Gesamttitel.;;;;;;;;;;;;
 Sp;;;Sprachwissenschaft (Linguistik);;;;;;;;;;;;;
-Sp;Sp 1 + Sp 2;;"Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik";;;;;;;;;;;;;
+Sp;Sp 1 + Sp 2;;Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik;;;;;;;;;;;;;
 Sp;Sp 1.0;;Linguistik, populär;;;;;;;;;;;;;
 Sp;Sp 1.1;;Geschichte der Sprachwissenschaft, Nachschlagewerke, Einführungen;;;;;;;;;;;;;
 Sp;Sp 1.2;;Allgemeines, Sprachtheorie;;;;;;;;;;;;;
@@ -90,5 +90,6 @@ Sp;Sp 5.4;;Sprachrichtigkeit, Sprachpflege, Sprecherziehung, Sprechwissenschaft;
 Vo;;;Volkskunde;Volkskunde einzelner Landschaften, Kreise, Städte;Glaube und Brauch (Religionsgeschichte, Mythologie, Aberglaube u.a.);Volksmedizin;Trachten, Tanz;Volksdichtung, Allg.(gattungsübergreifend);Volkssage;Legende (Abhandlungen und Texte);Volksbuch;Märchen und Schwank;Rätsel und Sprichworte;Volkslied (Sammlungen, dann Abhandlungen);Geistliches Lied;Volksschauspiel
 W;;;Wörterbücher;Deutsche Wörterbücher;Fremdwörterbücher, Spruchwörterbücher, Redewendungen, Zitatenlexika;Wortgeschichte;Mundartenwortschatz;Namenkunde;Wörterbücher anderer Sprachen;;;;;;;
 Z;;;Zeitschriften;Zeitschriftenhefte des laufenden Jahrgangs können beim Bibliotheksteam in den Zimmern 2.003 und 2.004 bei Hinterlegung eines Ausweises eingesehen werden, soweit die Hefte nicht in der Zeitschriftenauslage liegen.;;;;;;;;;;;;
+
 
 
