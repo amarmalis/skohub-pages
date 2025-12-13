@@ -27,7 +27,7 @@ Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signatu
 
 <a name="2.2"></a>
 ### 2.2 Arbeiten mit einem Kanban Board
-Eigentlich ist es so, dass man unter "Projekte" ein "New Project" anlegt, "Table" auswählt und hier zu "Board" switcht. Die "New Columns" belegt man dann z.B. mit "To Do", "in Progress" und "Done".
+Im geforkten Repo fehlen uns die Rechte ein neues Projekt anzulegen. Um in Kanban arbeiten zu können, wird ein neues Repo angelegt, das mit einem Projekt versehen ist. Das Projekt wird mit den Mitgliedern geteilt, die die Rolle "Admin" erhalten. Der Link lautet: https://github.com/users/miringa83/projects/2.
 
 <a name="2.3"></a>
 ### 2.3 Aufteilung der Aufgaben für das selbstständige Arbeiten
