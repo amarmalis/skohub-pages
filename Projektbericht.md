@@ -4,7 +4,7 @@ Projektbericht MALIS25, 2. Semester, IT 2 - Dozent: Adrian Pohl, Dozentin: Petra
 
 **Arbeitsgruppe:**
 
-Inga Frieman (Matrikelnummer: )
+Inga Frieman (Matrikelnummer: 11076717)
 
 Anne Marx (Matrikelnummer: )
 
