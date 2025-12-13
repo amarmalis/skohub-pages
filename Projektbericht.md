@@ -33,6 +33,7 @@ Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signatu
 
 <a name="3"></a>
 ## 3. Umsetzungsphase
+Da das Vokabular auf einer Website vorliegt und sich nicht in einer strukturierten Datei herunterladen lässt, ist eine automatisierte Transformation nach SKOS nicht möglich.
 
 <a name="3.1"></a>
 ### 3.1 Vorbereitung der Kodierung
@@ -41,7 +42,7 @@ Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signatu
 ### 3.2 SKOS-Kodierung des Vokabulars
 
 <a name="3.3"></a>
-### 3.3 Veröffentlichung mit SKOHub Pages
+### 3.3 Veröffentlichung mit SKOHub Pages und langfristige Verfügbarkeit via URI
 
 <a name="4"></a>
 ## 4. Lern- und Kompetenzentwicklung RDF und SKOS
