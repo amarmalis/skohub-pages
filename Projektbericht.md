@@ -34,7 +34,7 @@ Im geforkten Repo fehlen uns die Rechte ein neues Projekt anzulegen. Um in Kanba
 
 <a name="3"></a>
 ## 3. Umsetzungsphase
-Da das Vokabular auf einer Website vorliegt und sich nicht in einer strukturierten Datei herunterladen lässt, ist eine automatisierte Transformation nach SKOS nicht möglich.
+Da das Vokabular auf einer Website vorliegt und sich nicht in einer strukturierten Datei herunterladen lässt, ist eine automatisierte Transformation nach SKOS nicht möglich. Die Systematik wird daher manuell anhand der öffentlich zugänglichen Webdarstellung in strukturierte Form rekonstruiert.
 
 <a name="3.1"></a>
 ### 3.1 Vorbereitung der Kodierung
