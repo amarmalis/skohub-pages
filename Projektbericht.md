@@ -38,6 +38,22 @@ Da das Vokabular auf einer Website vorliegt und sich nicht in einer strukturiert
 
 <a name="3.1"></a>
 ### 3.1 Vorbereitung der Kodierung
+#### Vorbereitung der Daten
+Kopieren der Systematik von der Seite https://idsl1.phil-fak.uni-koeln.de/bibliothek/benutzung-und-ausleihe/systematik in einen Texteditor
+- Manuelle Bearbeitung
+   - Zuordnung des Systematiktitels zur jeweiligen Systematiknotation in einer Zeile, getrennt durch ": "
+   - Zuordnung der ggf. vorhandenen Beschreibungstexte zur jeweiligen Systemstelle in der folgenden Zeile ohne Leerzeile
+   - Trennung aller Systemstellen durch Leezeile
+   - Ausweisung der TopLevel-Einträge durch "**...**"
+- Weitere Bearbeitung im Jupyter Notebook
+#### Bearbeitung im Jupyter Notebook
+- Einlesen der Rohdaten
+- Parsing des Fließtexts
+- Erstellung einer strukturierten Tabelle
+- Bearbeitung der Hierarchieebenen
+- Einfügen der skos:narrower und skos:broader-Verweise (Im Moment noch fehlerhaft für die Zeilen Sp1+Sp2, Sp1.0, Sp1.1, Sp1.2, Sp1.3, Sp1.4, Sp1.5, Sp2.1, Sp2.2, Sp2.3, Sp2.4, Sp2.5.)
+- Export der Excel-Datei
+
 
 <a name="3.2"></a>
 ### 3.2 SKOS-Kodierung des Vokabulars
