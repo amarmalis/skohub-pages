@@ -19,6 +19,9 @@ Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signatu
 <a name="1.1"></a>
 ### 1.1 Aufbau des Vokabulars
 
+
+Es handelt sich um ein einsprachiges deutschsprachiges Vokabular, weshalb auf die Sprachkennzeichnung (@de) verzichtet wird. 
+
 <a name="2"></a>
 ## **2. Arbeitsorganisation**
 
