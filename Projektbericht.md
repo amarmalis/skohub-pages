@@ -57,12 +57,30 @@ Kopieren der Systematik von der Seite https://idsl1.phil-fak.uni-koeln.de/biblio
 - Einfügen der skos:narrower und skos:broader-Verweise (Im Moment noch fehlerhaft für die Zeilen Sp1+Sp2, Sp1.0, Sp1.1, Sp1.2, Sp1.3, Sp1.4, Sp1.5, Sp2.1, Sp2.2, Sp2.3, Sp2.4, Sp2.5.)
 - Export der Excel-Datei
 
-
 <a name="3.2"></a>
-### 3.2 SKOS-Kodierung des Vokabulars
+### 3.2 Datenmodellierung
+
+### Analyse von und Umgang mit Inkonsistenzen
+Bei der Datenmodellierung haben wir uns für eine originalgetreue Übernahme entschieden. Für diese Vorgehensweise spricht, die Integrität der Systematik zu wahren, da sie aktiv als Arbeitsinstrument genutzt wird. Änderungen und Anpassungen müssen deshalb begründet und nachvollziehbar sein sowie im Projektbericht dokumentiert werden. In Einzelfällen waren Korrekturen notwendig, bei Tipp- oder Rechtschreibfehlern (Hs „Rechswissenschaft“) und einheitlicher Klammersetzung in prefLabels bzw. altLabels. Die einzige inhaltliche Korrektur erfolgte bei der Behebung von Fehlern in der Hierarchie unter dem TopConcept „Sp“. 
+
+### Auflösung der kombinierten Notation "Sp 1 + Sp 2"
+Die ursprüngliche Systematik verwendet die kombinierte Notation „Sp 1 + Sp 2“ für "Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik", welche in Sp 1 und Sp 2 jeweils fünf Unterkategorien enthalten.  
+
+Anstatt der Mehrfachnotation innerhalb eines Konzepts, wurde „Sp 1 + Sp 2“ in zwei separate Konzepte aufgelöst, wobei beide gleichberechtigt unter Sp als narrower concepts stehen:
+- Sp 1: Allgemeine und vergleichende Sprachwissenschaft
+- Sp 2: Angewandte und empirische Linguistik
+
+Im Zuge der Auflösung erhalten die Konzepte Sp 1.0 bis Sp 2.5 korrigierte broader-Verweise, wodurch die hierarchische Struktur konsistent wird. 
+
+Diese Anpassung ermöglicht eine valide SKOS-Struktur und sorgt für semantische Stringenz, da die beiden Bereiche mit ihren unterschiedlichen Schwerpunkten (theoretisch/anwendungsorientiert) separiert werden. Dennoch bleibt die originale inhaltliche Zuordnung der Unterkategorien erhalten. 
+
+Es wird deutlich, dass die Überführung in strukturierte Formate inhaltliche Interpretationen erfordern kann. Da die Entscheidungen dokumentiert und nachvollziehbar sind, können sie stets aktualisiert oder revidiert werden. 
 
 <a name="3.3"></a>
-### 3.3 Veröffentlichung mit SKOHub Pages und langfristige Verfügbarkeit via URI
+### 3.3 SKOS-Kodierung des Vokabulars
+
+<a name="3.4"></a>
+### 3.4 Veröffentlichung mit SKOHub Pages und langfristige Verfügbarkeit via URI
 
 <a name="4"></a>
 ## 4. Lern- und Kompetenzentwicklung RDF und SKOS
