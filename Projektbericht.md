@@ -103,5 +103,12 @@ Es wird deutlich, dass die Überführung in strukturierte Formate inhaltliche In
 <a name="4.1"></a>
 ### 5.1 Mehrwert des SKOS-Vokabulars
 
+- Skos-Version ermöglicht Einbindung an verschiedenen Stellen der Webseite oder des Katalogs
+- Einfache Datenpflege und Ergänzung
+- Steuerung der anzuzeigenden und der durchsuchbaren Informationen
+- Bearbeitungshinweise für die Editorinnen sind über die Nutzung bestimmter Skos-Properties möglich
+- Im Bedarfsfall könnten eigene Properties definiert und genutzt werden.
+- Veröffentlichung und Nachnutzbarkeit durch andere Einrichtungen ist in diesem Fall weniger wichtig. Vokabular ist jedoch gut geeignet, um die Datenmodellierung zu testen.
+
 <a name="4.2"></a>
 ### 5.2 Anwendungsfälle
