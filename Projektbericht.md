@@ -19,8 +19,18 @@ Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signatu
 <a name="1.1"></a>
 ### 1.1 Aufbau des Vokabulars
 
-
 Es handelt sich um ein einsprachiges deutschsprachiges Vokabular, weshalb auf die Sprachkennzeichnung (@de) verzichtet wird. 
+
+Notation, Hierarchie und Gliederung
+- Hierarchisch-enumerativ: Die Hauptgruppen sind alphabetisch mit 1-2 Buchstaben  kodiert, die Untergruppen sind alphabetische oder nummerische Zusätze am Hauptgruppenpräfix (AK 1, Ha). Gruppen der 3. Hierarchieebene sind in der Regel als numerische Ergänzung nach Punkt gekennzeichnet (Ausnahme ist die Notation AT 3.1, die zur zweiten Hierarchieebene gehört). 
+- Die Notation der Systemstelle ist Signaturbestandteil aller Medien dieses Bereiches 
+- Gliederung folgt teilw. formalen Kriterien (z.B. A - Anthologien, D - Dissertationen, Z - Zeitschriften)
+- Teilw. werden Gruppen nach Sachgebiet gebildet (AT - Ältere Texte, Sp - Sprachwissenschaft)
+- Binnengliederung einzelner Sachgruppen erfolgt unter unterschiedlichen Aspekten:
+  - Form / Materialart
+  - Erscheinungsjahr der Literatur
+  - Geburtsjahre der Autor\*innen
+- Notationsregeln werden durch  Aufstellanweisungen ergänzt, die selbst nicht in der Notation codiert sind. (Bsp. Aufstellanweisung innerhalb der Gruppen von NT: Zuordnung zu den Untergruppen anhand der Geburtsjahre der Autor\*innen von Primärliteratur. Innerhalb der Signaturgruppen ohne explizite Notation: Name der Autor\*in (alphabetisch). I. Primärliteratur: a) Gesamtausgaben, b) Teilsammlungen, c) Briefe, Tagebücher u.ä., d) Einzelausgaben (alphabetisch sortiert), e) selbständige Bibliographien; II. Sekundärliteratur: im Alphabet der Autor\*innen, Jahrbücher, Mitteilungen der Dichtergesellschaften, Wörterbücher
 
 <a name="2"></a>
 ## **2. Arbeitsorganisation**
