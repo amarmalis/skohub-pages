@@ -14,7 +14,7 @@ Maren Zychla (Matrikelnummer:  )
 
 <a name="1"></a>
 ## **1. Auswahl des Vokabulars und kontextuelle Einordnung**
-Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signaturklassifikation des Instituts für Deutsche Sprache und Literatur I (IDSL I) der Universität zu Köln. URL: https://idsl1.phil-fak.uni-koeln.de/bibliothek/benutzung-und-ausleihe/systematik
+Bei dem ausgewählen Vokabular handelt es sich um eine Aufstellungs- und Signaturklassifikation des Instituts für Deutsche Sprache und Literatur I (IDSL I) der Universität zu Köln. URL: https://idsl1.phil-fak.uni-koeln.de/bibliothek/benutzung-und-ausleihe/systematik. Das Einverständnis des IDSL I wurde schriftlich per Email eingeholt. Die Bibliothekarin Frau Knopp-Sullivan bittet um einen Hinweis, wenn das Vokabular auf SKOS veröffentlicht ist.
 
 <a name="1.1"></a>
 ### 1.1 Aufbau des Vokabulars
@@ -48,12 +48,13 @@ Unter "Projects" wird ein Projekt Namens "@amarmalis's IT2" angelegt. Aufgeteilt
 ### 2.3 Aufteilung der Aufgaben für das selbstständige Arbeiten
 In der zweiten Sitzung haben sich die Teilnehmerinnen soweit in die SKOS-Materie und das die ausgesuchte Systematik eingearbeitet, dass für das dritte Zoom-Meeting Aufgaben verteilt werden können. Die Aufteilung wird in Kanban dokumentiert. Auf Sciebo wird ein Ordner angelegt, auf den das Projektteam Zugriffsrechte hat. Die Excel-Datei der Systematik ist hier hochgeladen und zudem ein Word-Dokument, in dem die Texte für den Projektbericht vorgeschrieben und kommentiert werden können.
 Die Aufgaben werden aufgeteilt in:
--Beschreibung der Systematik
--Wie sieht das Schema aus?
--Welche Properties sind sinnvoll?
--Umgang mit Fehlern und Inkonsistenzen
--SKOS-Veröffentlichung und persistente Identifier (URI)
--Vorteile der SKOS-Darstellung
+- Beschreibung der Systematik
+- Wie sieht das Schema aus?
+- Welche Properties sind sinnvoll?
+- Umgang mit Fehlern und Inkonsistenzen
+- Korrektur von Inkonsistenzen und Dokumentation
+- SKOS-Veröffentlichung und persistente Identifier (URI)
+- Vorteile der SKOS-Darstellung
 <a name="3"></a>
 ## 3. Umsetzungsphase
 Da das Vokabular auf einer Website vorliegt und sich nicht in einer strukturierten Datei herunterladen lässt, ist eine automatisierte Transformation nach SKOS nicht möglich. Die Systematik wird daher manuell anhand der öffentlich zugänglichen Webdarstellung in strukturierte Form rekonstruiert.
