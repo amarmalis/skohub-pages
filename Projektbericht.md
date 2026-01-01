@@ -40,7 +40,7 @@ Notation, Hierarchie und Gliederung
 
 <a name="2.2"></a>
 ### 2.2 Arbeiten mit einem Kanban Board
-Im geforkten Repo fehlen uns die Rechte ein neues Projekt anzulegen. Um in Kanban arbeiten zu können, wird ein neues Repo angelegt, das mit einem Projekt versehen ist. Das Projekt wird mit den Mitgliedern geteilt, die die Rolle "Admin" erhalten. Der Link lautet: https://github.com/users/miringa83/projects/2.
+Unter "Projects" wird ein Projekt Namens "@amarmalis's IT2" angelegt. 
 
 <a name="2.3"></a>
 ### 2.3 Aufteilung der Aufgaben für das selbstständige Arbeiten
