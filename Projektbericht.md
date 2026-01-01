@@ -42,11 +42,18 @@ Für das kleine Projekt treffen sie die Mitglieder via Zoom, da dies für ortsun
 
 <a name="2.2"></a>
 ### 2.2 Arbeiten mit einem Kanban Board
-Unter "Projects" wird ein Projekt Namens "@amarmalis's IT2" angelegt. Aufgeteilt ist das Kanban in "To do", "In Progress", "Done" und "Offene Fragen". Stand und Entwicklung der Gruppenaufgabe ist somit für alle Mitglieder einsehbar.
+Unter "Projects" wird ein Projekt Namens "@amarmalis's IT2" angelegt. Aufgeteilt ist das Kanban in "To do", "In Progress", "Done" und "Offene Fragen". Stand und Entwicklung der Gruppenaufgabe ist somit für alle Mitglieder einsehbar. Die offenen Fragen sind unter anderem die Diskussionsgrundlage für die Treffen.
 
 <a name="2.3"></a>
 ### 2.3 Aufteilung der Aufgaben für das selbstständige Arbeiten
-
+In der zweiten Sitzung haben sich die Teilnehmerinnen soweit in die SKOS-Materie und das die ausgesuchte Systematik eingearbeitet, dass für das dritte Zoom-Meeting Aufgaben verteilt werden können. Die Aufteilung wird in Kanban dokumentiert. Auf Sciebo wird ein Ordner angelegt, auf den das Projektteam Zugriffsrechte hat. Die Excel-Datei der Systematik ist hier hochgeladen und zudem ein Word-Dokument, in dem die Texte für den Projektbericht vorgeschrieben und kommentiert werden können.
+Die Aufgaben werden aufgeteilt in:
+-Beschreibung der Systematik
+-Wie sieht das Schema aus?
+-Welche Properties sind sinnvoll?
+-Umgang mit Fehlern und Inkonsistenzen
+-SKOS-Veröffentlichung und persistente Identifier (URI)
+-Vorteile der SKOS-Darstellung
 <a name="3"></a>
 ## 3. Umsetzungsphase
 Da das Vokabular auf einer Website vorliegt und sich nicht in einer strukturierten Datei herunterladen lässt, ist eine automatisierte Transformation nach SKOS nicht möglich. Die Systematik wird daher manuell anhand der öffentlich zugänglichen Webdarstellung in strukturierte Form rekonstruiert.
