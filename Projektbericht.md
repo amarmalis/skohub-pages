@@ -35,12 +35,14 @@ Notation, Hierarchie und Gliederung
 <a name="2"></a>
 ## **2. Arbeitsorganisation**
 
+
 <a name="2.1"></a>
 ### 2.1 Treffen via Zoom
+Für das kleine Projekt treffen sie die Mitglieder via Zoom, da dies für ortsunabhängige Treffen ermöglicht. In Moodle ist für die Studiengruppe MALIS25 ein Zoom-Raum angelegt, der genutzt wird.
 
 <a name="2.2"></a>
 ### 2.2 Arbeiten mit einem Kanban Board
-Unter "Projects" wird ein Projekt Namens "@amarmalis's IT2" angelegt. 
+Unter "Projects" wird ein Projekt Namens "@amarmalis's IT2" angelegt. Aufgeteilt ist das Kanban in "To do", "In Progress", "Done" und "Offene Fragen". Stand und Entwicklung der Gruppenaufgabe ist somit für alle Mitglieder einsehbar.
 
 <a name="2.3"></a>
 ### 2.3 Aufteilung der Aufgaben für das selbstständige Arbeiten
