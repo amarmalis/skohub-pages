@@ -96,7 +96,7 @@ Diese Anpassung ermöglicht eine valide SKOS-Struktur und sorgt für semantische
 
 Es wird deutlich, dass die Überführung in strukturierte Formate inhaltliche Interpretationen erfordern kann. Da die Entscheidungen dokumentiert und nachvollziehbar sind, können sie stets aktualisiert oder revidiert werden. 
 
-###Umgang mit der Doppelvergabe der Oberbegriffe GT
+### Umgang mit der Doppelvergabe der Oberbegriffe GT
 Die Notation GT als Oberbegriff wurde doppelt vergeben. Einmal unter "GT - Graphische Texte" und "GT - Sammelbände, Anthologien". Beschreibend ist noch der Hinweis "Graphic Novels / überwiegend deutschsprachiger Autor*innen" zu erkennen. Diese Doppelvergabe sollte nicht doppelt in SKOS übernommen werden, deswegen wurde die Bibliothekar im IDSL1 befragt. Sie erklärt, dass GT als Überbegriff den Inhalt der Signaturengruppe beschreibt und GT nicht nicht als separate Signatur vergeben wird, sondern nur innerhalb einer Zahl für den Zeitabschnitt, innhalb derer die AutorIinnen geboren sind. Das sind GT 1 und GT 2. Die Gruppenteilnehmerin versichert sich, dass die Gruppe "GT - Graphische Texte" durch "Graphic Novels / überwiegend deutschsprachiger AutorInnen, Sammelbände, Anthologien" beschrieben wird. Dies wird durch die Bibliothekarin bestätigt.
 
 <a name="3.3"></a>
