@@ -1,0 +1,34 @@
+@prefix colour: <https://w3id.org/idsl_systematik/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+colour:scheme a skos:ConceptScheme ;
+    dct:title "Colour vocabulary with hierarchy"@en ,
+              "Farbvokabular mit Hierarchie"@de ;
+    dct:creator "Hans Dampf"@de ;
+    dct:created "2021-11-02"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept colour:violet ,
+                       colour:green .
+
+colour:violet a skos:Concept ;
+    skos:prefLabel "Violett"@de ,
+                   "violet"@en ;
+    skos:altLabel "Lila"@de ,
+                   "purple"@en ;
+    skos:topConceptOf colour:scheme ;
+    skos:inScheme colour:scheme .
+
+colour:green a skos:Concept ;
+    skos:prefLabel "Grün"@de ,
+                   "green"@en ;
+    skos:narrower colour:grassgreen ;
+    skos:topConceptOf colour:scheme ;
+    skos:inScheme colour:scheme .
+
+colour:grassgreen a skos:Concept ;
+    skos:prefLabel "Grasgrün"@de ,
+                   "grass-green"@en ;
+    skos:broader colour:green ;
+    skos:inScheme colour:scheme .
