@@ -3,7 +3,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-colour:scheme a skos:ConceptScheme ;
+<https://w3id.org/idsl_systematik/> a skos:ConceptScheme ;
     dct:title "Colour vocabulary with hierarchy"@en ,
               "Farbvokabular mit Hierarchie"@de ;
     dct:creator "Hans Dampf"@de ;
@@ -13,22 +13,18 @@ colour:scheme a skos:ConceptScheme ;
                        colour:green .
 
 colour:violet a skos:Concept ;
-    skos:prefLabel "Violett"@de ,
-                   "violet"@en ;
-    skos:altLabel "Lila"@de ,
-                   "purple"@en ;
-    skos:topConceptOf colour:scheme ;
-    skos:inScheme colour:scheme .
+    skos:prefLabel "Violett"@de , "violet"@en ;
+    skos:altLabel "Lila"@de , "purple"@en ;
+    skos:topConceptOf <https://w3id.org/idsl_systematik/> ;
+    skos:inScheme <https://w3id.org/idsl_systematik/> .
 
 colour:green a skos:Concept ;
-    skos:prefLabel "Grün"@de ,
-                   "green"@en ;
+    skos:prefLabel "Grün"@de , "green"@en ;
     skos:narrower colour:grassgreen ;
-    skos:topConceptOf colour:scheme ;
-    skos:inScheme colour:scheme .
+    skos:topConceptOf <https://w3id.org/idsl_systematik/> ;
+    skos:inScheme <https://w3id.org/idsl_systematik/> .
 
 colour:grassgreen a skos:Concept ;
-    skos:prefLabel "Grasgrün"@de ,
-                   "grass-green"@en ;
+    skos:prefLabel "Grasgrün"@de , "grass-green"@en ;
     skos:broader colour:green ;
-    skos:inScheme colour:scheme .
+    skos:inScheme <https://w3id.org/idsl_systematik/> .
