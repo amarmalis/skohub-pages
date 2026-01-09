@@ -1,0 +1,551 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://w3id.org/idsl_systematik/concept/a> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "A",
+        "a" ;
+    skos:note "Die mit ¬´ a ¬ª bezeichneten B√ºcher k√∂nnen bei der Aufsicht f√ºr 3 Wochen ausgeliehen werden. Wir ben√∂tigen den Nachweis, dass Sie am IDSL I oder IDSL II studieren, sowie den Personalausweis bzw. Reisepass + Meldebescheinigung. Es wird eine Stammkarte ausgef√ºllt, die f√ºr ein Semester gilt. F√ºr jedes einzelne Buch muss ein Leihschein ausgef√ºllt und unterschrieben werden. (F√ºr mittelhochdeutsche und althochdeutsche W√∂rterb√ºcher und Grammatiken gibt es eine Semesterausleihe.) Eine Verl√§ngerung ist nur zweimal m√∂glich. Wer die B√ºcher nicht rechtzeitig zur√ºckgibt, wird ein Semester lang f√ºr die Ausleihe gesperrt."@de ;
+    skos:prefLabel "Anthologien"@de,
+        "B√ºcher zur Ausleihe"@de .
+
+<https://w3id.org/idsl_systematik/concept/ak1> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/ak> ;
+    skos:inScheme <ja> ;
+    skos:notation "AK1" ;
+    skos:prefLabel "Allgemeine germanische Altertumskunde"@de .
+
+<https://w3id.org/idsl_systematik/concept/ak2> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/ak> ;
+    skos:inScheme <ja> ;
+    skos:notation "AK2" ;
+    skos:prefLabel "Vor-, Ur- und Fr√ºhgeschichte germanischer V√∂lker und Landschaften"@de .
+
+<https://w3id.org/idsl_systematik/concept/ak3> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/ak> ;
+    skos:inScheme <ja> ;
+    skos:notation "AK3" ;
+    skos:prefLabel "Runenkunde"@de .
+
+<https://w3id.org/idsl_systematik/concept/ak4> a skos:Concept ;
+    skos:altLabel "Kulturgeschichte"@de ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/ak> ;
+    skos:editorialNote "Disambiguierung des prefLabel durch Angabe der 1. Hierarchieebene"@de ;
+    skos:inScheme <ja> ;
+    skos:notation "AK4" ;
+    skos:prefLabel "Kulturgeschichte (Germanistische Altertumskunde)"@de .
+
+<https://w3id.org/idsl_systematik/concept/ak5> a skos:Concept ;
+    skos:altLabel "Religionswissenschaft"@de ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/ak> ;
+    skos:editorialNote "Disambiguierung des prefLabel durch Angabe der 1. Hierarchieebene"@de ;
+    skos:inScheme <ja> ;
+    skos:notation "AK5" ;
+    skos:prefLabel "Religionswissenschaft (Germanistische Altertumskunde)"@de .
+
+<https://w3id.org/idsl_systematik/concept/ak6> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/ak> ;
+    skos:inScheme <ja> ;
+    skos:notation "AK6" ;
+    skos:prefLabel "Rechtsgeschichte"@de .
+
+<https://w3id.org/idsl_systematik/concept/at1> a skos:Concept ;
+    skos:altLabel "Serien"@de ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/at> ;
+    skos:editorialNote "Disambiguierung des prefLabel durch Angabe der 1. Hierarchieebene"@de ;
+    skos:inScheme <ja> ;
+    skos:notation "AT1" ;
+    skos:prefLabel "Serien (√Ñltere Texte)"@de .
+
+<https://w3id.org/idsl_systematik/concept/at2> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/at> ;
+    skos:inScheme <ja> ;
+    skos:notation "AT2" ;
+    skos:prefLabel "Einzeltexte"@de .
+
+<https://w3id.org/idsl_systematik/concept/at3> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/at> ;
+    skos:inScheme <ja> ;
+    skos:notation "AT3" ;
+    skos:prefLabel "Literaturgeschichte Mittelalter (Antike bis Sp√§tmittelalter) bis Erscheinungsjahr 1999"@de .
+
+<https://w3id.org/idsl_systematik/concept/at31> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/at> ;
+    skos:inScheme <ja> ;
+    skos:notation "AT3.1" ;
+    skos:prefLabel "Literaturgeschichte Mittelalter (Antike bis Sp√§tmittelalter) ab Erscheinungsjahr 2000"@de .
+
+<https://w3id.org/idsl_systematik/concept/at4> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/at> ;
+    skos:inScheme <ja> ;
+    skos:notation "AT4" ;
+    skos:prefLabel "Drama des Mittelalters"@de .
+
+<https://w3id.org/idsl_systematik/concept/d> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "D" ;
+    skos:prefLabel "Dissertationen (alte Dissertationen und d√ºnne Schriften)"@de .
+
+<https://w3id.org/idsl_systematik/concept/du> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "Du" ;
+    skos:prefLabel "Deutschunterricht"@de ;
+    skos:scopeNote "Theorie und Praxis des Deutschunterrichts (Schule und Hochschule) // Lese- und Sprachb√ºcher // Richtlinien, Lehrpl√§ne, Studienordnungen und verbindliche Curricula"@de .
+
+<https://w3id.org/idsl_systematik/concept/e> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "E" ;
+    skos:prefLabel "Nachschlagewerke"@de ;
+    skos:scopeNote "Allgemeine Lexika // Lexika zu einzelnen Fachgebieten // Handb√ºcher, Biographische Nachschlagewerke // Bibliographien // Handschriftenverzeichnisse // Verzeichnisse wissenschaftlicher Institutionen und Gesellschaften // Nachschlagewerke zur Weltliteratur // Deutsche Dichterlexika // Studienf√ºhrer"@de .
+
+<https://w3id.org/idsl_systematik/concept/ft> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "FT" ;
+    skos:prefLabel "Fremdsprachige Texte / Texte fremdsprachiger Autor*innen"@de ;
+    skos:scopeNote "Unter diese Kategorie f√§llt ausl√§ndische Literatur. Auch Autor*innen der Migrant*innenliteratur sind hier nach ihren Geburtsl√§ndern versammelt."@de .
+
+<https://w3id.org/idsl_systematik/concept/gt1> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/gt> ;
+    skos:inScheme <ja> ;
+    skos:notation "GT1" ;
+    skos:prefLabel "Werke von Autor*innen bis Geburtsjahr 1979"@de .
+
+<https://w3id.org/idsl_systematik/concept/gt2> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/gt> ;
+    skos:inScheme <ja> ;
+    skos:notation "GT2" ;
+    skos:prefLabel "Werke von Autor*innen ab Geburtsjahr 1980"@de .
+
+<https://w3id.org/idsl_systematik/concept/ha> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Ha" ;
+    skos:prefLabel "Geschichte"@de .
+
+<https://w3id.org/idsl_systematik/concept/hb> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hb" ;
+    skos:prefLabel "Kulturgeschichte"@de .
+
+<https://w3id.org/idsl_systematik/concept/hc> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hc" ;
+    skos:prefLabel "Psychologie"@de .
+
+<https://w3id.org/idsl_systematik/concept/hd> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hd" ;
+    skos:prefLabel "P√§dagogik"@de .
+
+<https://w3id.org/idsl_systematik/concept/he> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "He" ;
+    skos:prefLabel "Soziologie"@de .
+
+<https://w3id.org/idsl_systematik/concept/hf> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hf" ;
+    skos:prefLabel "Philosophie"@de .
+
+<https://w3id.org/idsl_systematik/concept/hg> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hg" ;
+    skos:prefLabel "Religionswissenschaft"@de .
+
+<https://w3id.org/idsl_systematik/concept/hh> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hh" ;
+    skos:prefLabel "Kunstgeschichte"@de .
+
+<https://w3id.org/idsl_systematik/concept/hi> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hi" ;
+    skos:prefLabel "Musik"@de .
+
+<https://w3id.org/idsl_systematik/concept/hk> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hk" ;
+    skos:prefLabel "Theater, Tanz und Film"@de .
+
+<https://w3id.org/idsl_systematik/concept/hm> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hm" ;
+    skos:prefLabel "Buchwesen, Medien, Presse, Kommunikation"@de .
+
+<https://w3id.org/idsl_systematik/concept/hn> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hn" ;
+    skos:prefLabel "Universit√§ten"@de .
+
+<https://w3id.org/idsl_systematik/concept/ho> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Ho" ;
+    skos:prefLabel "Judaica, J√ºdische Geschichte, Antisemitismus"@de .
+
+<https://w3id.org/idsl_systematik/concept/hp> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hp" ;
+    skos:prefLabel "Gender"@de .
+
+<https://w3id.org/idsl_systematik/concept/hr> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:inScheme <ja> ;
+    skos:notation "Hr" ;
+    skos:prefLabel "Naturwissenschaft, Mathematik und Technik"@de .
+
+<https://w3id.org/idsl_systematik/concept/hs> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/h> ;
+    skos:editorialNote "Schreibfehler korrigiert"@de ;
+    skos:inScheme <ja> ;
+    skos:notation "Hs" ;
+    skos:prefLabel "Rechtswissenschaft und Wirtschaftswissenschaften"@de .
+
+<https://w3id.org/idsl_systematik/concept/k> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "K" ;
+    skos:prefLabel "Philologie und Literaturwissenschaft"@de ;
+    skos:scopeNote "Methodik der Philologie, wissenschaftliches Arbeiten // Methodik und Theorie der Literaturwissenschaft, Literaturkritik, Komparatistik, Intertextualit√§t // Geschichte der Literaturwissenschaft und Philologie // Sammelwerke / Festschriften // Kongressberichte, Symposien"@de .
+
+<https://w3id.org/idsl_systematik/concept/l> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "L" ;
+    skos:prefLabel "Literaturgeschichte"@de ;
+    skos:scopeNote "Deutsche Literaturgeschichte (Gesamtdarstellungen) // Literaturgeschichte einzelner deutscher St√§dte, Regionen und V√∂lker // Deutsche Literaturgeschichte einzelner Epochen // Gattungsgeschichte // Problem-, Stoff-, Motiv- und Wirkungsgeschichte // Geschichte der Weltliteratur // Ausl√§ndische Literaturgeschichte"@de .
+
+<https://w3id.org/idsl_systematik/concept/m> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "M" ;
+    skos:prefLabel "√Ñsthetik, Poetik, Stilistik"@de ;
+    skos:scopeNote "Allgemeine √Ñsthetik // Poetik // Verslehre // Stilistik, √úbersetzungstheorie // Rhetorik, Kommunikation, Gespr√§ch // Kreatives Schreiben, Selbstausdruck, Schreibwerkst√§tten"@de .
+
+<https://w3id.org/idsl_systematik/concept/ma> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "Ma" ;
+    skos:prefLabel "Bibel, Patristik, Theologie, Allgemeine Bedeutungskunde"@de ;
+    skos:scopeNote "Bibelausgaben, Apokryphen // Konkordanzen, Bibliographien, Handb√ºcher und Nachschlagewerke // Dogmatik, Dogmengeschichte // Liturgiewissenschaft // Hymnologie // Theologische Texte und kultische Texte wie Me√üb√ºcher, Ordensregeln, Beichten, Lieder- und Andachtsb√ºcher // Bibliographien zur Bedeutungskunde // W√∂rterb√ºcher u.√§. zur Bedeutungskunde // Allgemeines zur Bedeutungskunde // Ereignisbedeutung: Typologie, Geb√§rden // Dingbedeutung: Enzyklop√§dische Werke und Verwandtes, Tiere (Bestiarien), Pflanzen (Herbarien), Personifikationen, Mythologische Figuren u.√§., Steine (Lapidarien), Farben, Zahlen, Architektur, andere Dinge als Bedeutungstr√§ger // Heraldik, Emblematik, Metaphorik, Etymologie, Allegorese antiker Dichtung, Bibelkommentare und Verwandtes, Nachschlagewerke zur Bedeutungskunde // Christliche Kunst"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt1> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT1" ;
+    skos:prefLabel "Reformationszeit (ab 1500)"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt10> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT10" ;
+    skos:prefLabel "Moderne (Schriftsteller*innen ab 1914)"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt11> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT11" ;
+    skos:prefLabel "Schriftsteller*innen ab 1945"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt12> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT12" ;
+    skos:prefLabel "Schriftsteller*innen ab 1980 (einschlie√ülich Migrant*innenliteratur)"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt2> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT2" ;
+    skos:prefLabel "Barockliteratur (ab Theobald Hock 1573)"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt3> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT3" ;
+    skos:prefLabel "Beginn der Aufkl√§rung, Renaissance (ab Canitz 1654)"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt4> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT4" ;
+    skos:prefLabel "Aufkl√§rung, Vorbereitung der Klassik (ab Klopstock 1724)"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt5> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT5" ;
+    skos:prefLabel "Goethe und seine Zeit (ab Herder 1744)"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt6> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT6" ;
+    skos:prefLabel "Die Generation der Romantik (ab A. W. Schlegel 1767)"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt7> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT7" ;
+    skos:prefLabel "Vorm√§rz, Realismus des 19. Jahrhunderts (ab Grillparzer 1791)"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt8> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT8" ;
+    skos:prefLabel "Naturalismus und Symbolismus (ab Nietzsche 1844)"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt9> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/nt> ;
+    skos:inScheme <ja> ;
+    skos:notation "NT9" ;
+    skos:prefLabel "Expressionismus (ab G. Kaiser 1878)"@de .
+
+<https://w3id.org/idsl_systematik/concept/se> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "Se" ;
+    skos:prefLabel "Serien"@de ;
+    skos:scopeNote "Dies sind meist √§ltere philologische Schriften literaturwissenschaftlicher Verlagsreihen mit √ºbergeordnetem Gesamttitel."@de .
+
+<https://w3id.org/idsl_systematik/concept/sp10> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp1.0" ;
+    skos:prefLabel "Linguistik, popul√§r"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp11> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp1.1" ;
+    skos:prefLabel "Geschichte der Sprachwissenschaft, Nachschlagewerke, Einf√ºhrungen"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp12> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp1.2" ;
+    skos:prefLabel "Allgemeines, Sprachtheorie"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp13> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp1.3" ;
+    skos:prefLabel "Phonetik, Phonologie (bis Erscheinungsjahr 2002)"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp14> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp1.4" ;
+    skos:prefLabel "Morphologie, Syntax, Semantik (bis Erscheinungsjahr 2002)"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp15> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp1.5" ;
+    skos:prefLabel "Phonetik, Phonologie, Morphologie, Syntax, Semantik (ab Erscheinungsjahr 2003)"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp21> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp2.1" ;
+    skos:prefLabel "Sprachphilosophie, Pragmatik, Logik, Semiotik"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp22> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp2.2" ;
+    skos:prefLabel "Sprachsoziologie, Soziolinguistik, Spracherwerb, Mehrsprachigkeit"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp23> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp2.3" ;
+    skos:prefLabel "Kybernetik, Informations- und Kommunikationstheorie, mathematische Linguistik, Computerlinguistik"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp24> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp2.4" ;
+    skos:prefLabel "Deutsch als Fremdsprache, Fremdsprachenunterricht, Fachsprache, Deutsch als Minderheitensprache, Lexikographie"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp25> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp1sp2> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp2.5" ;
+    skos:prefLabel "Psycholinguistik, Neurolinguistik, Kognitive Linguistik"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp31> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp3> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp3.1" ;
+    skos:prefLabel "Grammatik (Gesamt- und Einzeldarstellungen)"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp32> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp3> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp3.2" ;
+    skos:prefLabel "Phonetik, Phonologie"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp33> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp3> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp3.3" ;
+    skos:prefLabel "Morphologie, Syntax, Semantik, Pragmatik"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp34> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp3> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp3.4" ;
+    skos:prefLabel "Soziologie, Politik, Politische Rede, √ñffentlichkeit, Sprachkritik"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp35> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp3> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp3.5" ;
+    skos:prefLabel "Phonetik, Phonologie, Morphologie, Syntax, Semantik, Pragmatik (ab Erscheinungsjahr 2003)"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp36> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp3> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp3.6" ;
+    skos:prefLabel "Graphematik / Schriftlinguistik"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp41> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp4> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp4.1" ;
+    skos:prefLabel "Indoeurop√§isch"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp42> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp4> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp4.2" ;
+    skos:prefLabel "Germanische Sprachen"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp43> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp4> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp4.3" ;
+    skos:prefLabel "Deutsche Sprachgeschichte"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp44> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp4> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp4.4" ;
+    skos:prefLabel "Deutsche Mundarten"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp45> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp4> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp4.5" ;
+    skos:prefLabel "Allg. historische Linguistik und Dialektologie, Sonstige Sprachen"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp51> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp5> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp5.1" ;
+    skos:prefLabel "Textlinguistik, linguistische Gespr√§chsanalyse, Kommunikationsanalyse, Nonverbale Kommunikation"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp52> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp5> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp5.2" ;
+    skos:prefLabel "Poetik und Linguistik"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp53> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp5> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp5.3" ;
+    skos:prefLabel "Rhetorik, Argumentation, Geschichte der Kommunikation"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp54> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp5> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp5.4" ;
+    skos:prefLabel "Sprachrichtigkeit, Sprachpflege, Sprecherziehung, Sprechwissenschaft"@de .
+
+<https://w3id.org/idsl_systematik/concept/vo> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "Vo" ;
+    skos:prefLabel "Volkskunde"@de ;
+    skos:scopeNote "Volkskunde einzelner Landschaften, Kreise, St√§dte // Glaube und Brauch (Religionsgeschichte, Mythologie, Aberglaube u.a.) // Volksmedizin // Trachten, Tanz // Volksdichtung, Allg.(gattungs√ºbergreifend) // Volkssage // Legende (Abhandlungen und Texte) // Volksbuch // M√§rchen und Schwank // R√§tsel und Sprichworte // Volkslied (Sammlungen, dann Abhandlungen) // Geistliches Lied // Volksschauspiel"@de .
+
+<https://w3id.org/idsl_systematik/concept/w> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "W" ;
+    skos:prefLabel "W√∂rterb√ºcher"@de ;
+    skos:scopeNote "Deutsche W√∂rterb√ºcher // Fremdw√∂rterb√ºcher, Spruchw√∂rterb√ºcher, Redewendungen, Zitatenlexika // Wortgeschichte // Mundartenwortschatz // Namenkunde // W√∂rterb√ºcher anderer Sprachen"@de .
+
+<https://w3id.org/idsl_systematik/concept/z> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "Z" ;
+    skos:note "Zeitschriftenhefte des laufenden Jahrgangs k√∂nnen beim Bibliotheksteam in den Zimmern 2.003 und 2.004 bei Hinterlegung eines Ausweises eingesehen werden, soweit die Hefte nicht in der Zeitschriftenauslage liegen."@de ;
+    skos:prefLabel "Zeitschriften"@de .
+
+<https://w3id.org/idsl_systematik/concept/gt> a skos:Concept ;
+    skos:editorialNote "Laut Bibliothekarin im IDSL1 beschreibt GT als Oberbegriff die Inhalte der Signaturengruppe."@de ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "GT" ;
+    skos:prefLabel "Graphische Texte"@de ;
+    skos:scopeNote "Graphic Novels / √ºberwiegend deutschsprachiger Autor*innen, Sammelb√§nde, Anthologien"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "Sp" ;
+    skos:prefLabel "Sprachwissenschaft (Linguistik)"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp5> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp5" ;
+    skos:prefLabel "Textlinguistik, Gespr√§chsanalyse"@de .
+
+<https://w3id.org/idsl_systematik/concept/at> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "AT" ;
+    skos:prefLabel "√Ñltere Texte (√Ñltere deutsche Literatur ) : Literatur bis 1500"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp4> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp4" ;
+    skos:prefLabel "Historische Linguistik und Dialektologie"@de .
+
+<https://w3id.org/idsl_systematik/concept/ak> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "AK" ;
+    skos:prefLabel "Germanistische Altertumskunde"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp3> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp3" ;
+    skos:prefLabel "Deutsche Sprachwissenschaft"@de .
+
+<https://w3id.org/idsl_systematik/concept/sp1sp2> a skos:Concept ;
+    skos:broader <https://w3id.org/idsl_systematik/concept/sp> ;
+    skos:inScheme <ja> ;
+    skos:notation "Sp1+Sp2" ;
+    skos:prefLabel "Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik"@de .
+
+<https://w3id.org/idsl_systematik/concept/nt> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "NT" ;
+    skos:prefLabel "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"@de ;
+    skos:scopeNote "Ma√ügeblich f√ºr die Einordnung in die einzelnen Gruppen ist der Name und das Geburtsjahr der Autor*innen"@de .
+
+<https://w3id.org/idsl_systematik/concept/h> a skos:Concept ;
+    skos:inScheme <https://w3id.org/idsl_systematik/scheme> ;
+    skos:notation "H" ;
+    skos:prefLabel "\"Hilfswissenschaften\" = Nachbardisziplinen"@de .
+
+<https://w3id.org/idsl_systematik/scheme> a skos:ConceptScheme ;
+    dct:title "Kompetenzen (generated)"@de .
+
