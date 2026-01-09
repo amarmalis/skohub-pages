@@ -1,0 +1,1 @@
+Move `systematik_generated.ttl` from the root directory to the `data/` folder.
